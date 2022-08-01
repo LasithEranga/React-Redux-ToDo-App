@@ -1,0 +1,14 @@
+@import "~bootstrap/scss/bootstrap";
+
+$custom-colors: (
+  "custom-color": #900
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+@import "~bootstrap/scss/bootstrap";
+
+.input-group-text {
+  text-align: left;
+}
